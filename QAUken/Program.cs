@@ -23,35 +23,33 @@ namespace QAUken
                  Console.WriteLine(path);
                 foreach (string fileName in Directory.GetFiles(path, "*.txt"))
                 {
-                    //creating dictionary to store number and quantity of it's repeats
-                    var number_Quantity = new Dictionary<int, int>();
+                    //creating dictionary to store number and it's frequency
+                    var number_Frequency = new Dictionary<int, int>();
                     foreach (var number in File.ReadLines(fileName))
                     {
-                        //changing it's quantity if repeated
-                        if (number_Quantity.ContainsKey(int.Parse(number)))
-                        {
-                            number_Quantity[int.Parse(number)]++;
-                        }
+                        var num = int.Parse(number)
+                        //changing it's frequncy if repeated
+                        if (number_Frequency.ContainsKey(num)) number_Quantity[num]++;
                         //or adding to dictionary if not defined
                         else
-                            number_Quantity.Add(int.Parse(number), 1);
+                            number_Frequency.Add(num, 1);
                     }
 
-                    int topScore = 0;
-                    int leader = 555;
+                    var lowScore = int.MaxValue;
+                    var leader = int.MaxValue;
 
                     //running through numbers
-                    foreach (var numberQ in number_Quantity)
+                    foreach (var numberQ in number_Frequency)
                     {
-                        //if first or higher than topscore >> set it as high score
-                        if (topScore == 0 || topScore < numberQ.Value)
+                        //if first or lower than lowscore >> set it as leader
+                        if (lowScore == int.MaxValue || lowScore > numberQ.Value)
                         {
-                            topScore = numberQ.Value;
+                            lowScore = numberQ.Value;
                             leader = numberQ.Key;
                         }
-                        // if same set lower as leader
+                        // if same frequency set lower value as leader
                         else if (topScore == numberQ.Value)
-                            leader = leader > numberQ.Key ? leader : numberQ.Key;
+                            leader = leader > numberQ.Key ? numberQ.Key : leader;
                     }
                     Console.WriteLine($"File: {fileName} Number: {leader} Repeated: {topScore}");
                 }
@@ -62,8 +60,6 @@ namespace QAUken
                 Console.WriteLine("Oops, problem");
                 Console.WriteLine(exception.Message);
             }
-
-            // Application exits on user input
             Console.ReadKey();
         }
     }

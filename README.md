@@ -1,7 +1,7 @@
 # UkenQATest
 
 1. C# Challenge:
-To open this project download QA_Uken_part_1,
+To open this project download folder QAUken and QAUken.sln,
 Then open QAUken.sln with Visual Studio 2019 or similar IDE,
 Press Play (triangle) to run the program,
 Check terminal to see result.

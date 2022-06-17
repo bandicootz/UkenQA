@@ -1,0 +1,8 @@
+{
+  "runtimeOptions": {
+    "additionalProbingPaths": [
+      "/Users/bandicoot/.dotnet/store/|arch|/|tfm|",
+      "/Users/bandicoot/.nuget/packages"
+    ]
+  }
+}

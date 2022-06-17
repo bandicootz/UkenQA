@@ -1,0 +1,13 @@
+/Users/bandicoot/Projects/QAUken/QAUken/bin/Debug/netcoreapp3.1/QAUken.deps.json
+/Users/bandicoot/Projects/QAUken/QAUken/bin/Debug/netcoreapp3.1/QAUken.runtimeconfig.json
+/Users/bandicoot/Projects/QAUken/QAUken/bin/Debug/netcoreapp3.1/QAUken.runtimeconfig.dev.json
+/Users/bandicoot/Projects/QAUken/QAUken/bin/Debug/netcoreapp3.1/QAUken.dll
+/Users/bandicoot/Projects/QAUken/QAUken/bin/Debug/netcoreapp3.1/QAUken.pdb
+/Users/bandicoot/Projects/QAUken/QAUken/obj/Debug/netcoreapp3.1/QAUken.csproj.AssemblyReference.cache
+/Users/bandicoot/Projects/QAUken/QAUken/obj/Debug/netcoreapp3.1/QAUken.GeneratedMSBuildEditorConfig.editorconfig
+/Users/bandicoot/Projects/QAUken/QAUken/obj/Debug/netcoreapp3.1/QAUken.AssemblyInfoInputs.cache
+/Users/bandicoot/Projects/QAUken/QAUken/obj/Debug/netcoreapp3.1/QAUken.AssemblyInfo.cs
+/Users/bandicoot/Projects/QAUken/QAUken/obj/Debug/netcoreapp3.1/QAUken.csproj.CoreCompileInputs.cache
+/Users/bandicoot/Projects/QAUken/QAUken/obj/Debug/netcoreapp3.1/QAUken.dll
+/Users/bandicoot/Projects/QAUken/QAUken/obj/Debug/netcoreapp3.1/QAUken.pdb
+/Users/bandicoot/Projects/QAUken/QAUken/obj/Debug/netcoreapp3.1/QAUken.genruntimeconfig.cache
